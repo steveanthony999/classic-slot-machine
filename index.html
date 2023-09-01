@@ -3,9 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Classic Slot</title>
   </head>
   <body>
-    <h1>Classic Slot Machine</h1>
+    <div class="container">
+      <div class="overlay"></div>
+      <div class="slot-machine-container">
+        <img class="slot-machine" src="/machine.png" alt="slot machine" />
+        <div class="div" id="slot-button">
+          <img src="/button.png" alt="slot button" />
+        </div>
+        <img
+          src="/button-overlay.png"
+          alt="button overlay"
+          id="button-overlay"
+        />
+      </div>
+    </div>
+    <script src="/scripts.js" defer></script>
   </body>
 </html>
